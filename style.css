@@ -1,0 +1,270 @@
+/*
+Theme Name: WP Theme 2017
+Theme URI: http://www.davidakoch.net
+Author: David Koch
+Description: Siimple,responsive WordPress theme with Bootstrap and Sass to act as template
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.davidakoch.net
+*/
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#top_header {
+	background-color: #ed1690;
+}
+
+#top_header ul {
+	margin-left: 50px;
+	margin-right: 50px; 
+}
+
+#top_header ul li {
+	list-style-type: none;
+	display: inline-block; 
+	font-family: sans-serif;
+	margin-top: 15px; 
+}
+
+
+#top_header ul li a{
+	color: white;
+	padding-right: 10px; 
+	font-size: 12px; 
+}
+#top_header ul li.current-menu-item a {
+	color: black;
+}
+
+#search {
+	float: right;
+	padding-right: 50px;
+}
+
+#searchbox {
+	background-color:  #FF77FF;
+	border-width: 0px;
+	border-radius: 2px;
+}
+
+input::placeholder {
+	color: white;
+	padding-left: 5px; 
+}
+
+.title {
+	background-color: black;
+	color: white;
+	height: 100px; 
+	margin-top: 0px; 
+	padding-top: 15px; 
+}
+
+
+.content-area {
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 20px; 
+}
+
+.content-area-page {
+	width: 80%;
+    margin: 0 auto;
+	margin-bottom: 75px; 
+}
+
+.content-area-page h1 {
+	text-align: center; 
+}
+
+.callouts {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.members img {
+	width: 98%;
+}
+
+.screenings img {
+	width: 98%;
+}
+
+.upcoming img {
+	width: 98%;
+}
+
+.about {
+	width: 75%;
+	margin: 0 auto;
+	padding-bottom: 20px; 
+	border-top: 1px solid black;
+}
+
+.about h1 {
+	margin-top: 25px; 
+	font-size: 25px; 
+}
+
+.philamoca {
+	display: block;
+	float: right;
+	width: 40%;
+	padding-left: 10px;
+}
+
+.about_text {
+	display: block;
+}
+
+.footer {
+	background-color: #01091d;
+	padding-bottom: 100px; 
+}
+
+.footer_row {
+	padding-top: 50px; 
+}
+
+.address {
+	color: white;
+	margin-left: 50px; 
+	font-size: 10px;
+}
+
+#bottom_menu {
+	margin-right: 50px; 
+}
+
+#bottom_menu ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+#bottom_menu ul li a {
+	color: #aaa;
+	font-size: 10px;
+	padding-left: 10px; 
+}
+
+
+/*css for sidebar*/
+
+#primary-screenings {
+	margin-left: 25px;	
+	width: 80%;
+	margin: 0 auto; 
+}
+
+#sidebar-primary {
+	float: right;
+	margin-right: 50px;
+}
+
+#media_gallery-2 {
+	list-style-type: none; 
+}
+
+
+/*css for page blog*/
+
+#metadatas {
+	padding-bottom: 25px; 
+}
+
+.post-categories {
+	list-style-type: none; 
+	display: inline-block;
+	margin-left: -40px;
+}
+
+#tags {
+	float: right;
+	margin-right: 75px;
+}
+
+/*css for mobile header*/
+#mobile_header{
+	color: white;
+	display: none;
+}
+
+#mobile_list{
+	text-align: center; 
+	/*display: none;*/ 
+}
+
+ul#mobile_list li {
+	display: block; 
+	margin-top: 5px;
+}
+
+ul#mobile_list li a {
+	font-size: 20px; 
+}
+
+.glyphicon-menu-hamburger {
+	font-color: white;
+}
+
+
+
+@media only screen and (max-width: 1175px) {
+
+	 form {
+		display: none; 
+	}
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+	 .main_nav {
+		width: 80%; 
+		margin: 0 auto;
+	}
+
+	#top_header ul {
+		margin-right: 0px
+		margin-left: 0px;
+	}
+
+	.widgettitle {
+		text-align: center;
+	}
+
+	#sidebar-primary {
+		margin-top: 50px;
+		margin-right: inherit;
+		float: none;
+	}
+
+}
+
+@media only screen and (min-width: 900px) {
+	#mobile_menu {
+		display: none; 
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	#top_header ul {
+		display: none;
+	}
+
+	#mobile_header {
+		display: block; 
+	}
+}
+
+@media only screen and (max-width: 500px) {
+
+	 .title {
+		font-size: 25px;  
+	}
+
+}
+
+
