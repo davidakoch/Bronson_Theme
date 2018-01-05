@@ -41,7 +41,7 @@
 </section>
 <section class="about">
 	<h1 class="text-left">About this Thing!</h1>
-	<img src="http://first-theme-sept-2017.dev/wp-content/uploads/2017/10/philamoca.jpg" class="philamoca">
+	<img src="http://localhost:8888/bronson/wp-content/uploads/2018/01/philamoca-300x157.jpg" class="philamoca">
 	<p class="about_text">We'll be carrying on the proud tradition set forth by Psychotronic Film Societies around the globe by screening cult/weirdo/trash films for the locally like-minded. Every second and last Monday of the month we'll meet at 7:30 PM at the Philadelphia Mausoleum of Contemporary Art to watch a feature film. All are invited to attend and contribute suggestions for future screenings, it'll be a programming round robin. And the Psychotronic Film Society tradition of watching films while drinking will be preserved so BYOB is encouraged.
 	<br>
 	<br>

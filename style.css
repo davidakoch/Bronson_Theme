@@ -161,6 +161,7 @@ input::placeholder {
 #sidebar-primary {
 	float: right;
 	margin-right: 50px;
+	list-style-type: none; 
 }
 
 #media_gallery-2 {
